@@ -1,6 +1,6 @@
 #Move Folders, Created by James Caldwell, 9/1/23
 
-#Moves all the files within a subfolder containing "HSV" in the folder name to a new location
+#Moves all the files within a subfolder containing "HSV" ("High speed video") in the folder name to a new location
 
     # "MoveFolder" has subfolders for each test, and each test has subfolders DAS, HSV, DSD, and VICON
     # This script collects all files in the HSV subfolder for each test and moves them all into the same folder, target_folder
