@@ -1,4 +1,4 @@
-#Move Folders, Created by James Caldwell, 9/1/23
+#Move Files, Created by James Caldwell, 9/1/23
 
 #Moves all the files within a subfolder containing "HSV" ("High speed video") in the folder name to a new location
 
@@ -26,7 +26,4 @@ for path,dir,files in os.walk(source_folder):
                 shutil.copyfile(path + '\\' + file, target_folder + file)
             print(file + ' complete')
 
-    # print(files)
-    # if files:
-    #     for file in files:
             
